@@ -1,3 +1,5 @@
+import { Node } from '../shared/node.js';
+
 const branchSums = (root) => {
     const allSumsArray = [];
     const initialBranchSum = 0;
@@ -21,14 +23,6 @@ const sumTreeBranches = (node, currentBranchSum, allSums) => {
     sumTreeBranches(node.left, currentBranchSum, allSums);
     sumTreeBranches(node.right, currentBranchSum, allSums);
 };
-
-class Node {
-    constructor(value) {
-        this.value = value;
-        this.left = null;
-        this.right = null;
-    }
-}
 
 const root = new Node(1);
 root.left = new Node(2);

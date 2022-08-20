@@ -1,0 +1,21 @@
+{
+    "name": "DSA",
+    "version": "1.0.0",
+    "description": "Mastering data structures and algorithms by solving a variety of common problems",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ksgeorgieva/DSA.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ksgeorgieva/DSA/issues"
+    },
+    "homepage": "https://github.com/ksgeorgieva/DSA#readme"
+}
