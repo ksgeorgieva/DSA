@@ -1,4 +1,4 @@
-import { Node } from '../shared/node.js';
+import { Node } from '../../shared/node.js';
 
 const branchSums = (root) => {
     const allSumsArray = [];

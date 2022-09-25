@@ -6,6 +6,7 @@ const coins5 = [1, 1, 3];               // 6
 const coins6 = [1, 1, 4];               // 3
 const coins7 = [5, 10];                 // 1
 const coins8 = [];                      // 1
+const coins9 = [1];                     // 2
 
 const nonConstructibleChange = (coins = []) => {
     const sortedCoins = coins.sort((a, b) => a - b);
@@ -33,3 +34,4 @@ console.log(nonConstructibleChange(coins5));
 console.log(nonConstructibleChange(coins6));
 console.log(nonConstructibleChange(coins7));
 console.log(nonConstructibleChange(coins8));
+console.log(nonConstructibleChange(coins9));
